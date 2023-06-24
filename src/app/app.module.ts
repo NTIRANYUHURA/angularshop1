@@ -11,6 +11,7 @@ import { FilterPipe } from './shared/filter.pipe';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AddProductComponent } from './shared/component/add-product/add-product.component';
 import { LoginComponent } from './component/login/login.component';
+import { UserComponent } from './component/user/user.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { LoginComponent } from './component/login/login.component';
     ProductsComponent,
     FilterPipe,
     AddProductComponent,
-    LoginComponent
+    LoginComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
